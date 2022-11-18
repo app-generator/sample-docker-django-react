@@ -1,0 +1,6 @@
+env
+.dockerignore
+Django.Dockerfile
+React.Dockerfile
+venv
+node_modules
