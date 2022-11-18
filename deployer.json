@@ -1,0 +1,5 @@
+{
+    "name": "fullstack-react-horizon-ui",
+    "type": "fullstack",
+    "dirs": "api-server-django, react-ui"
+}
