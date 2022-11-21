@@ -16,6 +16,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY api-server-django .
 
 # running migrations
+RUN python manage.py makemigrations --noinput
 RUN python manage.py migrate
 
 # gunicorn
